@@ -35,6 +35,7 @@ endforeach()
 # 三方库
 include(${ROOT_DIR}/cmake/module_gtest.cmake)
 include(${ROOT_DIR}/cmake/module_benchmark.cmake)
+include(${ROOT_DIR}/cmake/module_glog.cmake)
 include(${ROOT_DIR}/cmake/module.cmake)
 
 # 执行文件

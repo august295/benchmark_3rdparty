@@ -112,7 +112,7 @@ static void bench_json_write(benchmark::State& state)
         std::string json_str = j.dump(4);
     }
 }
-BENCHMARK_CAPTURE(bench_json_write, json_dump);
+BENCHMARK(bench_json_write);
 
 /**
  * @brief rapidjson 测试
@@ -228,6 +228,6 @@ static void bench_rapidjson_write(benchmark::State& state)
         std::string json_str = buffer.GetString();
     }
 }
-BENCHMARK_CAPTURE(bench_rapidjson_write, json_dump);
+BENCHMARK(bench_rapidjson_write);
 
 BENCHMARK_MAIN();
