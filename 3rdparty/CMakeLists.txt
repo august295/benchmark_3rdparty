@@ -30,3 +30,14 @@ add_subdirectory(${ROOT_DIR}/3rdparty/tinyxml2)
 
 set_property(TARGET "tinyxml2" PROPERTY FOLDER "${PREFIX_FOLDER}")
 
+####################################################################################################
+# glog
+####################################################################################################
+set(BUILD_EXAMPLES OFF)
+set(WITH_GFLAGS OFF)
+set(WITH_GTEST OFF)
+set(BUILD_TESTING OFF)
+add_subdirectory(${ROOT_DIR}/3rdparty/glog)
+
+set_property(TARGET "glog" PROPERTY FOLDER "${PREFIX_FOLDER}/glog")
+set_property(TARGET "glog_internal" PROPERTY FOLDER "${PREFIX_FOLDER}/glog")

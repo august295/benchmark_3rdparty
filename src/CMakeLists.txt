@@ -2,3 +2,4 @@
 add_subdirectory(test)
 add_subdirectory(test_json)
 add_subdirectory(test_xml)
+add_subdirectory(test_logging)
