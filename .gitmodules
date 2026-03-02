@@ -28,3 +28,6 @@
 [submodule "3rdparty/csv2"]
 	path = 3rdparty/csv2
 	url = git@github.com:p-ranav/csv2.git
+[submodule "3rdparty/simdjson"]
+	path = 3rdparty/simdjson
+	url = git@github.com:simdjson/simdjson.git

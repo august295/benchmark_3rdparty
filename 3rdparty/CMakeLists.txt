@@ -41,3 +41,10 @@ add_subdirectory(${ROOT_DIR}/3rdparty/glog)
 
 set_property(TARGET "glog" PROPERTY FOLDER "${PREFIX_FOLDER}/glog")
 set_property(TARGET "glog_internal" PROPERTY FOLDER "${PREFIX_FOLDER}/glog")
+
+####################################################################################################
+# simdjson
+####################################################################################################
+add_subdirectory(${ROOT_DIR}/3rdparty/simdjson)
+
+set_property(TARGET "simdjson" PROPERTY FOLDER "${PREFIX_FOLDER}")
