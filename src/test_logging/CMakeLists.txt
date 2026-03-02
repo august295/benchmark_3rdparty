@@ -8,4 +8,5 @@ include_directories(${ROOT_DIR}/3rdparty/benchmark/include)
 target_link_libraries(${ProjectName} "benchmark" "benchmark_main")
 
 include_directories(${ROOT_DIR}/3rdparty/spdlog/include)
-include_directories(${ROOT_DIR}/3rdparty/glog/src)
+
+target_link_libraries(${ProjectName} glog::glog)
