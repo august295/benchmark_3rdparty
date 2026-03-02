@@ -22,3 +22,9 @@
 [submodule "3rdparty/glog"]
 	path = 3rdparty/glog
 	url = git@github.com:google/glog.git
+[submodule "3rdparty/rapidcsv"]
+	path = 3rdparty/rapidcsv
+	url = git@github.com:d99kris/rapidcsv.git
+[submodule "3rdparty/csv2"]
+	path = 3rdparty/csv2
+	url = git@github.com:p-ranav/csv2.git

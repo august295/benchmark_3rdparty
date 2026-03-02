@@ -1,5 +1,5 @@
 # Compilation environment
-build
+build*/
 
 # User Configuration
 *.user
